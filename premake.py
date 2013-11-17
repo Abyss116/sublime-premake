@@ -7,7 +7,7 @@ except ImportError:
 try:
 	import thread
 except ImportError:
-	import _thread
+	import _thread as thread
 
 class PremakeCommand(sublime_plugin.WindowCommand):
 	"""Deal with premake build file generation."""
